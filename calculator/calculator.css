@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libertinus Mono", monospace;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,rgba(71, 13, 232, 0.667));
+}
+
+#calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 20px;
+     background: linear-gradient(45deg,#0a0a0a,rgba(68, 12, 223, 0.667));
+    box-shadow: 0px 3px 15px rgb(95, 97, 196);
+}
+
+input {
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(11, 175, 240);
+    font-size: 30px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 100px;
+}
+
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #ffffff;
+    background: transparent;
+    font-size: 20px;
+    box-shadow:  0px 3px 15px rgb(110, 208, 247);
+}
+
+button:hover {
+     box-shadow: 0px 3px 15px  rgb(11, 240, 19);
+}
+
+.special-character {
+    color: rgb(229, 240, 17);
+}
+
